@@ -1,1 +1,10 @@
 # -uts-dw-KholilIrsyadMarwan-4524210110
+Nama Lengkap = Kholil Irsyad Marwan
+NPM = 4524210110
+- [ ] Repositori GitHub sudah dibuat
+- [ ] Melakukan minimal 3 commit
+- [ ] Menerapkan HTML Semantik (header, main, footer)
+- [ ] Formulir sudah aksesibel (label + for/id)
+- [ ] Layout Mobile-First (1 kolom)
+- [ ] Layout Desktop (2 kolom) pakai Grid/Flexbox
+- [ ] Menerapkan JavaScript Live Preview (minimal 3 input)
