@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartu Kesehatan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kartu Kesehatan</h1>
+      <hr />
+    </header>
+
+    <main>
+      <section class="form-section">
+        <form id="form-pasien">
+          <fieldset>
+            <legend>Pengisian Data Diri</legend>
+
+            <p>
+              <label for="card-nama">Nama Pasien:</label>
+              <input
+                type="text"
+                id="card-nama"
+                name="card_nama"
+                required
+                maxlength="30"
+                placeholder="Masukkan nama pasien"
+              />
+            </p>
+
+            <p>
+              <label for="card-nik">NIK:</label>
+              <input
+                type="number"
+                id="card-nik"
+                name="card-nik"
+                placeholder="Masukkan NIK"
+              />
+            </p>
+            <p>
+              <label for="card-ttl">Tempat / Tanggal Lahir:</label>
+              <input type="text" id="card-ttl" name="card-ttl" placeholder= >
+            </p>
+
+            <p>
+              <label for="card-status">Status Pekerjaan:</label>
+              <input type="text" id="card-status" name="card-status"
+              placeholder= >
+            </p>
+            <button type="submit">Kirim</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="preview-section">
+        <h2>Kartu Pasien</h2>
+        <div class="kartu">
+          <div class="foto">
+            <img id="Foto" src="FotoPasien.jpg" alt="Foto pasien" width="300" />
+          </div>
+          <div class="info">
+            <h3 id="preview-nama">Nama Pasien</h3>
+            <p><strong>NIK:</strong> <span id="preview-nik">-</span></p>
+            <p>
+              <strong>Tempat/Tanggal Lahir:</strong>
+              <span id="preview-ttl">-</span>
+            </p>
+            <p>
+              <strong>Status Pekerjaan:</strong>
+              <span id="preview-status">-</span>
+            </p>
+            <ul class="meta-data">
+              <li>Masa Berlaku: Seumur Hidup</li>
+              <li>No. Pribadi: 081264739753</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h4>Hubungi Kami:</h4>
+      <ul>
+        <li>(021)-8888</li>
+        <li>RumahsakitCielungi@gmail.com</li>
+      </ul>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
